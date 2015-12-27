@@ -54,3 +54,5 @@ data4 <- cbind(data3[1:3], data4)
 ### Step 5
 ########################
 data5 <- data4 %>% group_by(activity_id, desc_activity, subject_id) %>% summarize_each(funs(mean))
+write.table(data5, file="./tidy_data_step5.txt", row.name=FALSE)
+data5
