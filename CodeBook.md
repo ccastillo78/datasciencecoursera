@@ -239,6 +239,7 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
+### Final considerations
 To build our final dataset and analyse the data (calculating the mean value of each vector), we will keep only the information from theses two data set vectors :
 - mean(): Mean value
 - std(): Standard deviation
